@@ -91,8 +91,8 @@
 				dimensions.minWidth = first_child.offsetWidth;
 			}
 				
-			first_child.style.width = 9999;
-			if(first_child.offsetWidth < self.elems[i].clientWidth) {
+			first_child.style.width = 99999;
+			if(first_child.offsetWidth < 99999) {
 				dimensions.maxWidth = first_child.offsetWidth;
 			}
 			else {
