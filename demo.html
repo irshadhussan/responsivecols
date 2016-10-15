@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Autocolumns</title>
+</head>
+<style>
+	.card {
+		float: left;
+		width: 200px;
+		min-width: 10px;
+		max-width: 350px;
+		margin:0 20px;
+		min-height: 400px;
+		background-color: #ff0;
+		margin-bottom: 20px;
+	}
+	.container {
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 30px 30px;
+	}
+	.card-cnt:after {
+		content: "";
+		display: table;
+		clear:both;
+	}
+</style>
+<body>
+	<div class='container'>
+	<div class='card-cnt' autocolumn>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+		<div class='card'></div>
+	</div>
+	</div>
+	<script src="responsivecols.js" type='text/javascript'></script>
+</body>
+</html>
