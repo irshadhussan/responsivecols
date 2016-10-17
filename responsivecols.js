@@ -91,8 +91,8 @@
 				dimensions.minWidth = first_child.offsetWidth;
 			}
 				
-			first_child.style.width = 99999;
-			if(first_child.offsetWidth < 99999) {
+			first_child.style.width = '99999px';
+			if(first_child.offsetWidth != '99999px') {
 				dimensions.maxWidth = first_child.offsetWidth;
 			}
 			else {
